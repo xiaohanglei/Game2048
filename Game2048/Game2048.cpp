@@ -36,16 +36,7 @@ int main()
 {
 	//PlaySound (TEXT("D:\\zzz\\zzd.wav"), NULL, SND_ASYNC | SND_NODEFAULT);
 
-
-
-
-
 	printf("hello \n");
-
-
-
-
-
 
 	//PlaySound (TEXT("yisheng.wav"), NULL, SND_ASYNC | SND_NODEFAULT);
 	//int flg = 1;
