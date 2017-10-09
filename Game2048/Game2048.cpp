@@ -53,6 +53,9 @@ int main()
 
 	}		
 	printf("\t\t\t%s\n","Game Over");
+
+	printf("≤‚ ‘“ª\n");
+
 	return 1;
 }
 
