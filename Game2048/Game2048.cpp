@@ -56,6 +56,8 @@ int main()
 
 	printf("²âÊÔÒ»\n");
 
+	printf("¹ş¹ş\n");
+
 	return 1;
 }
 
