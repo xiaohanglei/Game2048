@@ -36,25 +36,23 @@ int main()
 {
 	//PlaySound (TEXT("D:\\zzz\\zzd.wav"), NULL, SND_ASYNC | SND_NODEFAULT);
 
-	printf("hello \n");
+	PlaySound (TEXT("yisheng.wav"), NULL, SND_ASYNC | SND_NODEFAULT);
+	int flg = 1;
+	system("COLOR 5F");
+	memset(Map,0,sizeof(Map));//初始化
+	flg = Add(0);//	
+	print();
 
-	//PlaySound (TEXT("yisheng.wav"), NULL, SND_ASYNC | SND_NODEFAULT);
-	//int flg = 1;
-	//system("COLOR 5F");
-	//memset(Map,0,sizeof(Map));//初始化
-	//flg = Add(0);//	
-	//print();
+	while (Move())
+	{
+		//游戏移动
+		fflush(stdin);
+		system("cls");//清除屏幕
+		
+		print();
 
-	//while (Move())
-	//{
-	//	//游戏移动
-	//	fflush(stdin);
-	//	system("cls");//清除屏幕
-	//	
-	//	print();
-
-	//}		
-	//printf("\t\t\t%s\n","Game Over");
+	}		
+	printf("\t\t\t%s\n","Game Over");
 	return 1;
 }
 
