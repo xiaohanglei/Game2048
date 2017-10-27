@@ -36,7 +36,7 @@ int main()
 {
 	//PlaySound (TEXT("D:\\zzz\\zzd.wav"), NULL, SND_ASYNC | SND_NODEFAULT);
 
-	PlaySound (TEXT("yisheng.wav"), NULL, SND_ASYNC | SND_NODEFAULT);
+	//PlaySound (TEXT("yisheng.wav"), NULL, SND_ASYNC | SND_NODEFAULT);
 	int flg = 1;
 	system("COLOR 5F");
 	memset(Map,0,sizeof(Map));//≥ı ºªØ
